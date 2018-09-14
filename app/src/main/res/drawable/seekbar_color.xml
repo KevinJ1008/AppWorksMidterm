@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/background">
+        //SeekBar滾動條的背景
+        <shape android:shape="rectangle" >
+            <solid
+                android:color="#414141" />
+        </shape>
+    </item>
+    //SeekBar下載條顏色
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="#e2bde8"/>
+            </shape>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        //SeekBar Progress的顏色
+        <clip>
+            <shape android:shape="rectangle" >
+                <solid
+                    android:color="#a54ab5" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
